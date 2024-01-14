@@ -1,0 +1,24 @@
+.foodItem {
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+.foodName {
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.foodCal {
+    font-weight: bold;
+}
