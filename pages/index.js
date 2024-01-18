@@ -16,7 +16,7 @@ export default function Home() {
         <p className="description">
           <code>pages/index.js</code>
         </p>
-        <FoodItem />
+        <FoodItem name="pasta" cal="300"/>
       </main>
 
       <Footer />
